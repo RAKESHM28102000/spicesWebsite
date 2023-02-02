@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.search a{
+	text-decoration: none;
+    color: #ffffff;
+}
+.signin a{
+	text-decoration: none;
+    color: #ffffff;
+}
+
+.about-button a{
+	text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+	color: red;
+}
+a:active{
+	color: green;
+}
+a:visited{
+	color: blue;
+}
+
+/*navbar section*/
+.navbar{
+    background-color: rgb(94, 255, 164) !important;
+    border-color: black;
+    border-width:3px;
+    border-style: groove;
+    text-align: center;
+    position:sticky;
+    top:0;
+    left:0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20ox rgba(0, 0,0, .5);
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color:#14360d !important;
+    padding-top: 2px;
+}
+#navbarSupportedContent a{
+   color: aliceblue;
+   border-bottom: 3px solid transparent;
+   margin: 10px;
+   background-color: rgb(127, 238, 164);
+   border-radius: 15%;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 5px solid rgb(1, 15, 56);
+}
+#navbarSupportedContent button{
+    color: rgb(15, 41, 7);
+    border:2px solid rgb(1, 39, 1);
+    margin: 5px;
+    border-radius: 10%;
+    width:5rem;
+ }
+ /*section*/
+ section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+
+ }
+ /* home section*/
+ #home{
+    background-image: url("images/contact.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+ }
+ #home h1{
+    background-color: rgb(0, 107, 46) !important;
+    font-size: 100px;
+    text-align: center;
+    color: #ffffff;
+    font-family:"fantasy";
+    letter-spacing: 3px;
+    text-shadow: 0px 1px 0px #ccc,
+                 0px 2px 0px #ccc,
+                 0px 3px 0px #ccc,
+                 0px 4px 0px #ccc,
+                 0px 5px 0px #ccc,
+                 0px 6px 0px #ccc,
+                 0px 7px 0px #ccc;
+ }
+ #home p{
+    background-color: rgb(0, 107, 46) !important;
+    font-size: 50px;
+    text-align: center;
+    margin: 50px;
+    padding: auto;
+    color: #ffffff;
+    font-family:"fantasy";
+    letter-spacing: 3px;
+    text-shadow: 0px 1px 0px #ccc,
+                 0px 2px 0px #ccc,
+                 0px 3px 0px #ccc,
+                 0px 4px 0px #ccc,
+                 0px 5px 0px #ccc,
+                 0px 6px 0px #ccc,
+                 0px 7px 0px #ccc;
+ }
+ #home .input-group{
+   width: 55%;
+    position: relative;
+    left:200px;
+    text-align: center;
+    
+ }
+
+ .signin{
+    background-color: #14360d !important;
+    color: #1b1a1a !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+   
+ }
+ /* about section*/
+ #about h1{
+       font-size: 75px;
+       font-weight: 600;
+       font-family:"fantasy";   
+ }
+ #about p{
+    font-size: 30px;
+    font-weight: 600;
+    font-family:"fantasy";
+    line-height: 1.5;
+    text-align: left;
+    
+}
+.about-button{
+  
+    background-color: rgb(94, 255, 164) !important;
+    color: #f5f5f5 !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+   
+ }
+/*purchased section*/
+#purchased{
+    background-color: rgb(94, 255, 164) !important;
+    text-align: center;
+}
+#purchased h2,p{
+    font-size:75px;
+    font-family: "fantasy";
+    padding:10px;
+    }
+#purchased p{
+    font-size: 50px;
+}
+    
+
+.pricing-column .img-items{
+    width:30%;
+    
+  
+}
+.pricing-column .img-items-3{
+    width:30%;
+    height:40%;
+}
+.pricing-column .img-items-4{
+    width:30%;
+    height:10%;
+}
+
+#purchased .pricing-column{
+    text-align: center;
+    margin-top: 20px;
+  
+
+    
+}
+.pricing-column h3{
+    text-align: center;
+    font-size: 25px;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    background-color: #e5e5e5 !important;
+    border: none !important;
+    box-shadow:15px 20px 20px rgba(0, 0,0, .3),
+                inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+    transition: .2s;
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0, 0,0, .3),
+                 inset -4px -4px 10px white;
+    transition: .2s;
+}
+
+#purchased .btn{
+    display: block;
+    margin:5px 10px;
+    text-align: center;
+   
+   
+}
+/*cta section*/
+#cta{
+    background-color: rgb(230, 247, 237) !important;
+    font-size: 20px;
+    text-align: center;
+}
+
+#cta .container{
+    background-color: rgb(94, 255, 164) !important;
+    width:600px;
+}
+#cta h3{
+    font-size: 50px;
+    font-family:"fantasy";
+    padding: 10px 25px;
+}
+ #cta .download-buttens{
+    font-size: 30px;
+    font-family:"fantasy";
+    padding: 5px 5px;
+    margin:10px 5px 50px;
+}
+/*form*/
+.form{
+    padding:50px;
+    width: auto;
+}
+.form-label{
+    padding:10px;
+    width: auto;
+    text-align: left;
+    display: block;
+}
+.form input[type="none"]{
+	padding:5px;
+	width:auto;
+    text-align:left;
+
+}
+.form input[type="submit"]{
+	padding:5px;
+	background-color:rgb(36, 14, 14);
+	color: rgb(255, 243, 243);
+	border: none;
+    font-size:20px;
+
+}
+/*contact section*/ 
+#Contact{
+    background-color: rgb(94, 255, 164) !important;
+    font-size: 30px;
+    text-align: center;
+}
+#Contact .footerimage{
+    margin: 20px;
+    text-align: center;
+}
+#Contact p{
+     padding: 10px 20px;
+    font-size: 30px;
+    text-align: center;
+}
+/*coursal section*/
+#prime{
+    background-color: rgb(94, 255, 164) !important;}
+#prime h2{
+    font-size: 50px;
+    font-family:"fantasy";
+    padding: 10px 25px;}
+.img-in-coursal{
+    width: 40%;
+    margin-right: 20px;
+}
+/*animate section*/
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+
+  @media(max-width:1028px){
+    #cta .container{
+        background-color: rgb(141, 245, 167);
+        width:400px;
+    }  
+    #prime h2{
+        font-size: 25px;
+        font-family:"fantasy";
+        padding: 10px 25px;}
+     
+        #purchased h2,p{
+            font-size:40px;
+            font-family: "fantasy";
+            padding:10px;
+            }
+        #purchased p{
+            font-size: 25px;
+        }
+        #about h1{
+            font-size: 40px;
+            font-weight:400;
+            font-family:"fantasy";   
+      }
+      #about p{
+         font-size: 20px;
+         font-weight: 400;
+         font-family:"fantasy";
+         line-height: 1.5;
+         text-align: left;
+        }
+        #home h1{
+            background-color: rgb(0, 107, 46) !important;
+            font-size: 50px;
+            text-align: center;
+            color: #ffffff;
+            font-family:"fantasy";
+            letter-spacing: 3px;
+            text-shadow: 0px 1px 0px #ccc,
+                         0px 2px 0px #ccc,
+                         0px 3px 0px #ccc,
+                         0px 4px 0px #ccc,
+                         0px 5px 0px #ccc,
+                         0px 6px 0px #ccc,
+                         0px 7px 0px #ccc;
+         }
+         #home p{
+            background-color: rgb(0, 107, 46) !important;
+            font-size: 35px;
+            text-align: center;
+            margin: 30px;
+            padding: auto;
+            color: #ffffff;
+            font-family:"fantasy";
+            letter-spacing: 3px;
+            text-shadow: 0px 1px 0px #ccc,
+                         0px 2px 0px #ccc,
+                         0px 3px 0px #ccc,
+                         0px 4px 0px #ccc,
+                         0px 5px 0px #ccc,
+                         0px 6px 0px #ccc,
+                         0px 7px 0px #ccc;
+         }
+         #prime em{
+           display: block;
+           padding: 10px;
+        }      
+        
+}
+  
